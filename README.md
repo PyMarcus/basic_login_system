@@ -29,5 +29,19 @@ Atividade de programação web 05-01-23
 🚗 [Status 302] Redirect<br>
 ❌ [Status 404] Not found<br>
 
+### database utilizado:
+
+🗳️ SQLite3
+
+
+### Tecnologias Frontend:
+
+5️⃣ HTML5 <br>
+🖌️ CSS3 <br>
+
+### Tecnologias Backend:
+
+🐍 Python3.10.5
+
 
 
