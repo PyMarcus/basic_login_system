@@ -2,8 +2,8 @@
 
 ## Atividade de programação web 05-01-23
 
-A tarefa consiste em fazer um sistema básico de login,contudo, implementei algumas funcionalidades a mais.<br>
-Além disso, ao invés de usar java script, optei por utilizar o microframework web python, chamado Flask: https://flask.palletsprojects.com/en/2.2.x/
+A tarefa consiste em fazer um sistema básico de login,porém, implementei algumas funcionalidades a mais.<br>
+Além disso, ao invés de utilizar Java Script, optei por utilizar o microframework web Python, chamado Flask: https://flask.palletsprojects.com/en/2.2.x/
 
 
 ### Login route ( /login )
