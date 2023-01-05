@@ -51,6 +51,14 @@ Atividade de programação web 05-01-23
 
 🐉  Debian (Linux)
 
+### Dependências e versões disponíveis no arquivo requirements.txt, que se encontra neste diretório.
+
+Para instalar:
+
+    pip install -r requirements.txt
+    
+ Feito isso, as dependências necessárias serão baixadas.Contudo, é importante ter algum gerenciador de pacotes, no caso, utilizo o pip3.
+
 
 
 
