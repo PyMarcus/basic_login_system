@@ -25,7 +25,7 @@ Atividade de programação web 05-01-23
 ### Possíveis status code tratados, no backend, do protocolo HTTP:
 
 ✔️ [Status 200] Success<br>
-👌 [Status 201] Update<br>
+👌  [Status 201] Update<br>
 🚗 [Status 302] Redirect<br>
 ❌ [Status 404] Not found<br>
 
