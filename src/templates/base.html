@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- metadata content [start]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- metadata content [end]-->
+
+    <!--External links-->
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:600&display=swap" rel="stylesheet">
+    <!--end external links-->
+
+   <!--page title [start]-->
+    <title>
+      {% block title %}
+      {% endblock %}
+    </title>
+  <!--page title [end]-->
+</head>
+<body>
+
+    <!--start of content-->
+    {% block content %}
+    {% endblock %}
+    <!--end of content-->
+</body>
+</html>

@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Login-page
+{% endblock %}
+
+<!--body content-->
+{% block content %}
+
+    <!--main image background -->
+    <img
+            src="{{ url_for('static', filename='img/back.svg') }}"
+            class="back-image"
+            title="background-image-to-login">
+    <!-- end of background image -->
+
+
+    <!--container-->
+    <div class="container">
+        <div class="login-image">
+            <img
+                src="{{ url_for('static', filename='img/back.svg') }}"
+                title="login-image">
+        </div>
+
+        <div class="login-container">
+            <form action="" method="POST">
+
+                <!-- avatar image -->
+                <img
+                    src="{{ url_for('static', filename='img/avatar.svg') }}"
+                    class="avatar"
+                    title="user-image">
+                <h2>Welcome!</h2>
+
+                <!--input-->
+                <div class="input-div first">
+
+                    <!-- username input -->
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>Username</h5>
+                        <input class="input" type="text" placeholder="username">
+                    </div>
+                </div>
+
+                <div class="input-div second">
+                    <!-- password input -->
+                    <div class="i">
+                        <i class="fas fa-lock focus"></i>
+                    </div>
+                    <div>
+                        <h5>Password</h5>
+                        <input class="input" type="password" placeholder="password">
+                    </div>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!--end container-->
+
+
+
+{% endblock %}
+<!--end body content-->
