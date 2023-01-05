@@ -98,7 +98,8 @@ As senhas são salvas no database com a criptografia sha256:<br>
 
 ![image](https://user-images.githubusercontent.com/88283829/210898558-80f6a767-a0ee-4ddd-a0ec-32565fa9017d.png)
 
-
 Somado a isso, há a verificação se o usuário já está registrado no banco ou se o hash da senha são correspondentes.
+
+![image](https://user-images.githubusercontent.com/88283829/210899253-44d97b8e-4656-4ecc-a030-f244e6fdc3ad.png)
 
 
