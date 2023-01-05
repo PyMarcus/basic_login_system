@@ -43,5 +43,14 @@ Atividade de programação web 05-01-23
 
 🐍 Python3.10.5
 
+### Testado no Browser:
+
+🦊 Firefox
+
+### Sistema Operacional:
+
+🐉  Debian (Linux)
+
+
 
 
