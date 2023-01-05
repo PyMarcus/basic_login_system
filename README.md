@@ -60,5 +60,15 @@ Para instalar:
  Feito isso, as dependências necessárias serão baixadas.Contudo, é importante ter algum gerenciador de pacotes, no caso, utilizo o pip3.
 
 
+### Como executar localmente:
+
+Apontar a variável de ambiente para o arquivo main.py
+
+    $env:FLASK_APP="main.py"
+    
+Executar:
+
+     flask run --reload
+
 
 
