@@ -81,4 +81,9 @@ Executar:
 O Factory Method é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados
 
 
+### Diagrama do Database:
+
+![image](https://user-images.githubusercontent.com/88283829/210848832-463e8988-6994-4e44-8adb-dae146835db2.png)
+
+
 
