@@ -105,4 +105,9 @@ Somado a isso, há a verificação se o usuário já está registrado no banco o
 
 ![image](https://user-images.githubusercontent.com/88283829/210899253-44d97b8e-4656-4ecc-a030-f244e6fdc3ad.png)
 
+Há também a proteção contra acesso não autorizado a uma rota privada:
+
+![image](https://user-images.githubusercontent.com/88283829/210902157-c08ea214-d308-4689-824a-40dc1593aa60.png)
+
+
 
