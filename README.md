@@ -22,10 +22,12 @@ Atividade de programação web 05-01-23
 ![image](https://user-images.githubusercontent.com/88283829/210840334-d380b595-1f62-4d36-8a64-1957781c4a4f.png)
 
 
-### Possíveis status code tratados do protocolo HTTP:
+### Possíveis status code tratados, no backend, do protocolo HTTP:
 
 ✔️ [Status 200] Success<br>
 👌 [Status 201] Update<br>
 🚗 [Status 302] Redirect<br>
 ❌ [Status 404] Not found<br>
+
+
 
