@@ -64,6 +64,11 @@ Para instalar:
  Feito isso, as dependências necessárias serão baixadas.Contudo, é importante ter algum gerenciador de pacotes, no caso, utilizo o pip3.
 
 
+### Criar o banco de dados, se desejar:
+
+![image](https://user-images.githubusercontent.com/88283829/210887065-b399a0a7-d2d7-4508-af2b-d25ab6e06fc9.png)
+
+
 ### Como executar localmente:
 
 Apontar a variável de ambiente para o arquivo main.py
