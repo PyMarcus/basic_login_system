@@ -93,6 +93,9 @@ O Factory Method é um padrão criacional de projeto que fornece uma interface p
 
 ### 🔒 Segurança da aplicação:
 
+A aplicação conta com autenticação (confirma a integridade do usuário) e autorização (permite acesso aos recursos).
+
+<br>
 As senhas são salvas no database com a criptografia sha256:<br>
 "O SHA256 é considerado extremamente seguro, ao mesmo tempo em que possibilita um alto poder computacional. Graças a essas características ele é utilizado para mineração de bitcoins e pela própria NSA nos Estados Unidos." - Telium
 
