@@ -110,4 +110,10 @@ Há também a proteção contra acesso não autorizado a uma rota privada:
 ![image](https://user-images.githubusercontent.com/88283829/210902184-58975f65-38cb-4d95-9522-0e20695e2753.png)
 
 
+### Se tudo estiver correto, o login é realizado:
+
+O nome do usuário comprava a existência da sessão criada
+
+![image](https://user-images.githubusercontent.com/88283829/210902271-aab793e6-3892-455f-8040-65177579ba20.png)
+
 
