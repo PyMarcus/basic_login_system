@@ -7,7 +7,23 @@
 
 <!--body content-->
 {% block content %}
+    <!--main image background -->
+    <img
+            src="{{ url_for('static', filename='img/profile.svg') }}"
+            class="back-image"
+            title="background-image-to-login"
+    >
+    <!-- end of background image -->
 
-index
+    <p style="font-size:1.5rem; color:red;" align="center">
+        Trabalho feito por Marcus Vinícius.
+        <br>
+        Dia: 05/01/2023, Instituto Federal De Minas Gerais
+        <br>
+        Professor: Geraldo
+        <br>
+        Disciplina: Introdução à programação web.
+    </p>
+
 {% endblock %}
 <!--end body content-->

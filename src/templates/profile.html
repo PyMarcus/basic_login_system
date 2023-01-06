@@ -7,7 +7,12 @@
 
 <!--body content-->
 {% block content %}
+<nav style="background-color: red; padding:20px; margin:0;">
+    <a style="text-decoration:none; color:white; font-weight:bold;" href="{{ url_for('auth.logout') }}">Logout</a>
+</nav>
 
-profile
+<img src="{{ url_for('static', filename='img/Ok.svg') }}" class="back-image" title="ok page background image">
+<h1 align="center" style="font-size:3rem; color: red;">You Are Logged!</h1>
+<h2 align="center" style="font-size:3rem; color: red;">Welcome, {{ name }}!</h2>
 {% endblock %}
 <!--end body content-->

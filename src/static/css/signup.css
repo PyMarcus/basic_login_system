@@ -1,0 +1,224 @@
+
+/* background image */
+
+.back-image{
+	position: fixed;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;  /* shortest image come to front*/
+}
+
+/* container */
+
+.container{
+	width: 150vh;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* repeat 2x size 1 fr*/
+	grid-gap: 7rem;
+	padding: 0 2rem;
+}
+
+.login-image img{
+	width: 500px;
+}
+
+.login-container{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: center;
+}
+
+
+/* avatar image */
+
+.avatar{
+	width: 100px;
+}
+
+
+/*form*/
+form{
+	width: 360px;
+}
+
+form h2{
+	font-size: 2.9rem;
+	text-transform: uppercase;
+	margin:  15px 0;
+	color:  #333;
+}
+
+
+/*input div*/
+
+.input-div{
+	display: grid;
+	grid-template-columns: 7% 93%;
+	margin:  25px 0;
+	padding:  5px 0;
+	border-bottom: 2px solid #d9d9d9;
+}
+
+.input-div.first{
+	margin-top: 0;
+}
+
+.input-div.second{
+	margin-bottom: 4px;
+}
+
+/*icon*/
+
+.i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	color: #B10609;
+}
+
+/* input main formatation*/
+
+.input-div > div{
+	position: relative;
+	height: 45px;
+}
+
+
+.input-div > div h5{
+	position: absolute;
+	left: 10px;
+	top: -10%;
+	transform:  translateY(-50%);
+	color: black;
+	font-size: 18px;
+	display: none;
+	transition: .3s;
+}
+
+
+.input-register{
+	position:  absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1.2rem;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*button*/
+
+.btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #E4090D, #B10609);
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	background-size: 200%;
+	transition: .3s;
+	text-transform: uppercase;
+}
+
+
+
+/* media queries to adapt at diferents sizes of screen */
+
+@media screen and (max-width: 1400px){
+	.container{
+		grid-gap: 5rem;
+		width: 100vh;
+	}
+
+	.back-image{
+		width: 40%;
+		height: 100%;
+	}
+
+	.login-image img{
+		width: 400px;
+	}
+}
+
+
+@media screen and (max-width: 1000px){
+	form{
+		width: 290px;
+	}
+
+	form h2{
+		font-size: 2.4rem;
+		margin: 8px 0;
+	}
+
+	.login-image img{
+		width: 400px;
+	}
+
+
+}
+
+@media screen and (max-width: 900px){
+	.back-image{
+		display: none;
+	}
+
+	.login-image img{
+		display: none;
+	}
+
+	.login-image{
+		display: none;
+	}
+
+	.container{
+		width: 50vh;
+		margin: 0px auto;
+		grid-template-columns: 1fr;
+	}
+
+	.login-container{
+		margin: 0px auto;
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+@media screen and (max-width: 400px){
+	
+	.login-container{
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+		
+	}
+	form{
+		margin: 0;
+		padding: 0;
+	}
+
+	.container{
+		margin: 0;
+		padding: 0;
+	}
+	
+}

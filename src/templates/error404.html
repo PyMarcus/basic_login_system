@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+
+{% endblock %}
+
+<!--body content-->
+{% block content %}
+<img src="{{ url_for('static', filename='img/error.svg') }}" class="back-image" title="ok page background image">
+<h1 align="center" style="font-size:3rem; color: red;">Page not found 404!</h1>
+{% endblock %}
+<!--end body content-->

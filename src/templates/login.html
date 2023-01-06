@@ -2,7 +2,7 @@
 
 
 {% block title %}
-    Login-page
+    login
 {% endblock %}
 
 <!--body content-->
@@ -25,7 +25,17 @@
         </div>
 
         <div class="login-container">
-            <form action="" method="POST">
+
+            <!--ALERT MESSAGE-->
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <div style="border-radius:25px;width=300px;heigh:250px;padding:10px;background-color:red;font-weight:bold;">
+                        {{ messages[0] }}<br>
+                    </div>
+                {% endif %}
+            {% endwith %}
+
+            <form action="/login" method="POST">
 
                 <!-- avatar image -->
                 <img
@@ -43,7 +53,7 @@
                     </div>
                     <div>
                         <h5>Username</h5>
-                        <input class="input" type="text" placeholder="username">
+                        <input class="input" type="text" placeholder="username" name="username">
                     </div>
                 </div>
 
@@ -54,9 +64,11 @@
                     </div>
                     <div>
                         <h5>Password</h5>
-                        <input class="input" type="password" placeholder="password">
+                        <input class="input" type="password" placeholder="password" name="password">
                     </div>
                 </div>
+                <a href="{{ url_for('auth.signup') }}" style="margin:10px;font-weight:bold;color:red;font-size:1rem;text-decoration:none;">
+                    Don't have account? Register</a>
                 <button type="submit" class="btn">Login</button>
             </form>
         </div>
