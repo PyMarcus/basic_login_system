@@ -116,4 +116,10 @@ O nome do usuário comprava a existência da sessão criada
 
 ![image](https://user-images.githubusercontent.com/88283829/210902271-aab793e6-3892-455f-8040-65177579ba20.png)
 
+### Logout
+
+O sistema de logout verifica ,primeiramente, se o usuário está logado.Se estiver, basta clicar no link e isto é efetuado.
+
+![image](https://user-images.githubusercontent.com/88283829/210902900-21df1012-7734-4cdf-ada7-0a3075f83c17.png)
+
 
