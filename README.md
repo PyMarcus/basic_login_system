@@ -123,3 +123,9 @@ O sistema de logout verifica ,primeiramente, se o usuário está logado.Se estiv
 ![image](https://user-images.githubusercontent.com/88283829/210902900-21df1012-7734-4cdf-ada7-0a3075f83c17.png)
 
 
+### CONCLUSÃO
+
+Após efetuar o logout, o usuário será redirecionado a página index:
+
+![image](https://user-images.githubusercontent.com/88283829/210903303-d4c52285-3840-4188-ad60-4b280c8b02d6.png)
+
